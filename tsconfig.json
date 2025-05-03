@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext", // necessário para usar import/export
+        "moduleResolution": "Node", // resolve módulos como no Node.js
+        "outDir": "dist", // onde os .js compilados vão
+        "rootDir": "src", // onde estão seus arquivos .ts
+        "strict": true, // ativa verificações mais rigorosas
+        "esModuleInterop": true, // compatibilidade com módulos comuns
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
